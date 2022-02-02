@@ -1,9 +1,8 @@
-package com.example.demo;
+package com.example.demo.mapper;
 
 import java.time.LocalDateTime;
 
 import com.example.demo.domain.User;
-import com.example.demo.mapper.UserMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -13,7 +12,7 @@ import java.util.List;
 
 @SpringBootTest
 @Slf4j
-class MydemoApplicationTests {
+public class UserMapperTest {
 
     @Resource
     private UserMapper userMapper;
