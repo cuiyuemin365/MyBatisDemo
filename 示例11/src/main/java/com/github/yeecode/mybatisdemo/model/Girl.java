@@ -11,11 +11,7 @@ public class Girl extends User {
         this.email = email;
     }
 
-    @Override
-    public String toString() {
-        return super.toString() + "\n"
-                +"Girl{" +
-                "email=" + email +
-                '}';
+    @Override public String toString() {
+        return super.toString() + "\n" + "Girl{" + "email=" + email + '}';
     }
 }

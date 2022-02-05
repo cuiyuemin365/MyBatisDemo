@@ -2,8 +2,7 @@ package com.github.yeecode.mybatisdemo;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class DemoApplication {
+@SpringBootApplication public class DemoApplication {
     // 创建了两个ThreadLocal变量
     private static ThreadLocal<Integer> threadLocalNumber = new ThreadLocal<>();
     private static ThreadLocal<String> threadLocalString = new ThreadLocal<>();
@@ -24,8 +23,7 @@ public class DemoApplication {
     }
 
     private static class Task01 implements Runnable {
-        @Override
-        public void run() {
+        @Override public void run() {
             System.out.println("Thread01-number: " + threadLocalNumber.get());
             System.out.println("Set Thread01-number : 3001");
             threadLocalNumber.set(3001);
@@ -37,8 +35,7 @@ public class DemoApplication {
     }
 
     private static class Task02 implements Runnable {
-        @Override
-        public void run() {
+        @Override public void run() {
             System.out.println("Set Thread02-number : 3002");
             threadLocalNumber.set(3002);
             System.out.println("Thread02-number: " + threadLocalNumber.get());

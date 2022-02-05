@@ -7,12 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import javax.annotation.Resource;
 
-@SpringBootApplication
-@MapperScan("com.example.demo.mapper")
-public class MydemoApplication {
+@SpringBootApplication @MapperScan("com.example.demo.mapper") public class MydemoApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(MydemoApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(MydemoApplication.class, args);
+    }
 
 }

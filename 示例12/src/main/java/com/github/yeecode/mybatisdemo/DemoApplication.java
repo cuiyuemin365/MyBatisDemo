@@ -6,8 +6,7 @@ import com.github.yeecode.mybatisdemo.builder.UserBuilder;
 import com.github.yeecode.mybatisdemo.model.User;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class DemoApplication {
+@SpringBootApplication public class DemoApplication {
     public static void main(String[] args) {
         // 第一种：先创建对象在设置属性的方式建造对象
         User user01 = new User();

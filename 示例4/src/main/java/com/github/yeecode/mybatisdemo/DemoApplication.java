@@ -2,8 +2,7 @@ package com.github.yeecode.mybatisdemo;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class DemoApplication {
+@SpringBootApplication public class DemoApplication {
     public static void main(String[] args) {
         System.out.println("--原有Phone无录音功能--");
         Phone phone = new TelePhone();
@@ -15,10 +14,9 @@ public class DemoApplication {
         Phone phoneWithRecorder = new PhoneRecordDecorator(phone);
         phoneWithRecorder.callOut("Hello, this is yee.");
 
-
         // 有短信功能的Phone
         Phone phoneWithMessage = new PhoneMessageDecorator(phone);
-        ((PhoneMessageDecorator) phoneWithMessage).sendMessage("Hello, this is yee.");
+        ((PhoneMessageDecorator)phoneWithMessage).sendMessage("Hello, this is yee.");
 
     }
 }

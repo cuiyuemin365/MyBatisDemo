@@ -10,33 +10,26 @@ import org.springframework.boot.test.context.SpringBootTest;
 import javax.annotation.Resource;
 import java.util.List;
 
-@SpringBootTest
-@Slf4j
-public class UserMapperTest {
+@SpringBootTest @Slf4j public class UserMapperTest {
 
-    @Resource
-    private UserMapper userMapper;
+    @Resource private UserMapper userMapper;
 
-    @Test
-    void selectByNameLike() {
+    @Test void selectByNameLike() {
         List<User> userList = userMapper.selectByNameLike("1");
         log.info("{}", userList);
     }
 
-    @Test
-    void selectByName() {
+    @Test void selectByName() {
         List<User> userList = userMapper.selectByName("1");
         log.info("{}", userList);
     }
 
-    @Test
-    void selectByNameAndAge() {
+    @Test void selectByNameAndAge() {
         List<User> userList = userMapper.selectByNameAndAge("1", 3);
         log.info("{}", userList);
     }
 
-    @Test
-    void insertSelective() {
+    @Test void insertSelective() {
         User user = new User();
         user.setName("");
         user.setEmail("");

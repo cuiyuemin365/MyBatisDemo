@@ -26,10 +26,10 @@
         <typeHandler handler="com.github.yeecode.mybatisdemo.TestTypeHandler"/>
     </typeHandlers>
     <objectFactory type="com.github.yeecode.mybatisdemo.TestObjectFactory">
-        <property name=""  value=""/>
+        <property name="" value=""/>
     </objectFactory>
     <objectWrapperFactory type="com.github.yeecode.mybatisdemo.TestObjectWrapperFactory"/>
-    <reflectorFactory type="com.github.yeecode.mybatisdemo.TestReflectFactory" />
+    <reflectorFactory type="com.github.yeecode.mybatisdemo.TestReflectFactory"/>
     <plugins>
         <plugin interceptor="com.github.pagehelper.PageHelper">
             <property name="dialect" value="mysql"/>
@@ -48,7 +48,7 @@
                 <!--数据源密码-->
                 <property name="password" value="yeecode_passward"/>
                 <!--是否自动提交-->
-                <property name="autoCommit" value="true" />
+                <property name="autoCommit" value="true"/>
                 <!--默认的事务隔离级别-->
                 <property name="defaultTransactionlsoltionLevel" value="1"/>
                 <!--默认最长等待时间-->
@@ -65,27 +65,27 @@
                 <property name="password" value="yeecode_passward"/>
                 <property name="defaultTransactionlsoltionLevel" value="1"/>
                 <!-- 最大活动连接数 -->
-                <property name="poolMaximumActiveConnections" value="15" />
+                <property name="poolMaximumActiveConnections" value="15"/>
                 <!-- 最大空闲连接数 -->
-                <property name="poolMaximumIdleConnections" value="5" />
+                <property name="poolMaximumIdleConnections" value="5"/>
                 <!-- 省略了一些其他属性 -->
             </dataSource>
         </environment>
         <environment id="uat">
             <transactionManager type="JDBC"/>
-            <dataSource type="JNDI" >
+            <dataSource type="JNDI">
                 <!--起始环境信息-->
                 <property name="initial_context" value="java:/comp/env"/>
                 <!--数据源JNDI名称-->
-                <property name="data_source" value="java:comp/env/jndi/mybatis" />
+                <property name="data_source" value="java:comp/env/jndi/mybatis"/>
                 <!--以"env."开头的其他环境配置信息-->
-                <property name="env.encoding" value="UTF8" />
+                <property name="env.encoding" value="UTF8"/>
             </dataSource>
         </environment>
     </environments>
     <databaseIdProvider type="DB_VENDOR">
-        <property name="MySQL" value="mysql" />
-        <property name="SQL Server" value="sqlserver" />
+        <property name="MySQL" value="mysql"/>
+        <property name="SQL Server" value="sqlserver"/>
     </databaseIdProvider>
     <mappers>
         <mapper resource="com/github/yeecode/mybatisdemo/UserDao.xml"/>

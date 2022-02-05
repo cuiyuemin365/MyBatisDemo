@@ -10,8 +10,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-@SpringBootApplication
-public class DemoApplication {
+@SpringBootApplication public class DemoApplication {
     public static void main(String[] args) throws Exception {
         String url = "jdbc:mysql://127.0.0.1:3306/yeecode?serverTimezone=UTC";
         String userName = "root";
@@ -28,11 +27,12 @@ public class DemoApplication {
 
         // 第三步：创建语句并执行
         Statement stmt = conn.createStatement();
-        ResultSet resultSet = stmt.executeQuery("SELECT * FROM `user` WHERE schoolName = \'" + userParam.getSchoolName() + "\';");
+        ResultSet resultSet =
+            stmt.executeQuery("SELECT * FROM `user` WHERE schoolName = \'" + userParam.getSchoolName() + "\';");
 
         // 第四步：处理数据库操作结果
         List<User> userList = new ArrayList<>();
-        while(resultSet.next()){
+        while (resultSet.next()) {
             User user = new User();
             user.setId(resultSet.getInt("id"));
             user.setName(resultSet.getString("name"));

@@ -21,25 +21,25 @@
         <result property="age" column="age"/>
         <result property="sex" column="sex"/>
         <result property="schoolName" column="schoolName"/>
-        <association property="taskList"  resultMap="taskMap"/>
+        <association property="taskList" resultMap="taskMap"/>
     </resultMap>
 
     <resultMap id="taskMap" type="Task">
-        <result property="id" column="id" />
-        <result property="userId" column="userId" />
-        <result property="taskName" column="taskName" />
+        <result property="id" column="id"/>
+        <result property="userId" column="userId"/>
+        <result property="taskName" column="taskName"/>
     </resultMap>
 
     <select id="nestedQuery" resultMap="nestedUserMap">
-      SELECT * FROM `user` JOIN `task` ON `user`.`id` = `task`.`userId` WHERE `sex` = #{sex}
+        SELECT * FROM `user` JOIN `task` ON `user`.`id` = `task`.`userId` WHERE `sex` = #{sex}
     </select>
 
     <select id="lazyLoadQuery" resultMap="associationUserMap">
-      SELECT * FROM `user` WHERE `sex` = #{sex}
+        SELECT * FROM `user` WHERE `sex` = #{sex}
     </select>
 
     <select id="selectTask" resultType="Task">
-      SELECT * FROM `task` WHERE `userId` = #{id}
+        SELECT * FROM `task` WHERE `userId` = #{id}
     </select>
 
 </mapper>

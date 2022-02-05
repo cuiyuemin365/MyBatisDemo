@@ -17,8 +17,7 @@ public class ProxyHandler<T> implements InvocationHandler {
      * @return
      * @throws Throwable
      */
-    @Override
-    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+    @Override public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         System.out.println("pre words");
         Object ans = method.invoke(target, args);
         System.out.println("post words");

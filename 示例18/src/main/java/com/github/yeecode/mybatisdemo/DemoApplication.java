@@ -11,8 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.io.IOException;
 import java.io.InputStream;
 
-@SpringBootApplication
-public class DemoApplication {
+@SpringBootApplication public class DemoApplication {
     public static void main(String[] args) {
         // MyBatis的初始化阶段
         String resource = "mybatis-config.xml";

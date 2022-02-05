@@ -14,8 +14,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@SpringBootApplication
-public class DemoApplication {
+@SpringBootApplication public class DemoApplication {
     public static void main(String[] args) {
         // MyBatis的初始化阶段
         String resource = "mybatis-config.xml";
@@ -29,22 +28,22 @@ public class DemoApplication {
 
         // 数据读写阶段
         try (SqlSession session = sqlSessionFactory.openSession()) {
-//            User userParam = new User();
-//            userParam.setSchoolName("Sunny School");
-//            List<User> userList = session.selectList("com.github.yeecode.mybatisdemo.dao.UserMapper.queryUserBySchoolName_A", userParam);
-//            for (User user : userList) {
-//                System.out.println("name : " + user.getName() + " ;  email : " + user.getEmail());
-//            }
-//
-//            userList = session.selectList("com.github.yeecode.mybatisdemo.dao.UserMapper.queryUserBySchoolName_B", userParam);
-//            for (User user : userList) {
-//                System.out.println("name : " + user.getName() + " ;  email : " + user.getEmail());
-//            }
+            //            User userParam = new User();
+            //            userParam.setSchoolName("Sunny School");
+            //            List<User> userList = session.selectList("com.github.yeecode.mybatisdemo.dao.UserMapper.queryUserBySchoolName_A", userParam);
+            //            for (User user : userList) {
+            //                System.out.println("name : " + user.getName() + " ;  email : " + user.getEmail());
+            //            }
+            //
+            //            userList = session.selectList("com.github.yeecode.mybatisdemo.dao.UserMapper.queryUserBySchoolName_B", userParam);
+            //            for (User user : userList) {
+            //                System.out.println("name : " + user.getName() + " ;  email : " + user.getEmail());
+            //            }
 
             Map<String, Integer> param = new HashMap<>();
-            param.put("ageMinLimit",10);
-            param.put("ageMaxLimit",30);
-            session.selectOne("com.github.yeecode.mybatisdemo.dao.UserMapper.runCall",param);
+            param.put("ageMinLimit", 10);
+            param.put("ageMaxLimit", 30);
+            session.selectOne("com.github.yeecode.mybatisdemo.dao.UserMapper.runCall", param);
             System.out.println("proceduce param :" + param);
         }
     }

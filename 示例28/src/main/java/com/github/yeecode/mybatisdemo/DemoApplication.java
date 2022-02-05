@@ -11,8 +11,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
-@SpringBootApplication
-public class DemoApplication {
+@SpringBootApplication public class DemoApplication {
     public static void main(String[] args) {
         // MyBatis的初始化阶段
         String resource = "mybatis-config.xml";
@@ -28,7 +27,8 @@ public class DemoApplication {
         try (SqlSession session = sqlSessionFactory.openSession()) {
             User userParam = new User();
             userParam.setSchoolName("Sunny School");
-            List<User> userList = session.selectList("com.github.yeecode.mybatisdemo.dao.UserMapper.queryUserBySchoolName", userParam);
+            List<User> userList =
+                session.selectList("com.github.yeecode.mybatisdemo.dao.UserMapper.queryUserBySchoolName", userParam);
             for (User user : userList) {
                 System.out.println("name : " + user.getName() + " ;  email : " + user.getEmail());
             }

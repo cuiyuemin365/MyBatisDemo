@@ -1,1 +1,3 @@
-UPDATE user SET email = 'yeecode@abc.com' WHERE name = '易哥';
+update user
+set email = 'yeecode@abc.com'
+where name = '易哥';

@@ -12,8 +12,7 @@ import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-@SpringBootApplication
-public class DemoApplication {
+@SpringBootApplication public class DemoApplication {
     public static void main(String[] args) {
         try {
             // 继承Serializable对象的序列化和反序列化
@@ -50,7 +49,7 @@ public class DemoApplication {
         System.out.println("↑write;↓read");
 
         ObjectInputStream ois = new ObjectInputStream(new FileInputStream("m1.tempdata"));
-        UserModel01 newUser = (UserModel01) ois.readObject();
+        UserModel01 newUser = (UserModel01)ois.readObject();
         System.out.println("newUser:" + newUser.getId() + "-" + newUser.getName());
         System.out.println();
     }
@@ -69,7 +68,7 @@ public class DemoApplication {
         System.out.println("↑write;↓read");
 
         ObjectInputStream ois = new ObjectInputStream(new FileInputStream("m2.tempdata"));
-        UserModel02 newUser = (UserModel02) ois.readObject();
+        UserModel02 newUser = (UserModel02)ois.readObject();
         System.out.println("newUser:" + newUser.getId() + "-" + newUser.getName());
         System.out.println();
     }
@@ -88,7 +87,7 @@ public class DemoApplication {
         System.out.println("↑write;↓read");
 
         ObjectInputStream ois = new ObjectInputStream(new FileInputStream("m3.tempdata"));
-        UserModel03 newUser = (UserModel03) ois.readObject();
+        UserModel03 newUser = (UserModel03)ois.readObject();
         System.out.println("newUser:" + newUser.getId() + "-" + newUser.getName());
         System.out.println();
     }
@@ -107,7 +106,7 @@ public class DemoApplication {
         System.out.println("↑write;↓read");
 
         ObjectInputStream ois = new ObjectInputStream(new FileInputStream("m4.tempdata"));
-        UserModel04 newUser = (UserModel04) ois.readObject();
+        UserModel04 newUser = (UserModel04)ois.readObject();
         System.out.println("newUser:" + newUser.getId() + "-" + newUser.getName());
         System.out.println();
     }
@@ -126,7 +125,7 @@ public class DemoApplication {
         System.out.println("↑write;↓read");
 
         ObjectInputStream ois = new ObjectInputStream(new FileInputStream("m5.tempdata"));
-        UserModel05 newUser = (UserModel05) ois.readObject();
+        UserModel05 newUser = (UserModel05)ois.readObject();
         System.out.println("newUser:" + newUser.getId() + "-" + newUser.getName());
         System.out.println("description:" + newUser.getDescription());
         System.out.println();

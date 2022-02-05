@@ -6,14 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@RestController
-@RequestMapping("/")
-public class MainController {
-    @Autowired
-    private UserMapper userMapper;
+@RestController @RequestMapping("/") public class MainController {
+    @Autowired private UserMapper userMapper;
 
-    @RequestMapping("/")
-    public Object index() {
+    @RequestMapping("/") public Object index() {
         User userParam = new User();
         userParam.setSchoolName("Sunny School");
         List<User> userList = userMapper.queryUserBySchoolName(userParam);

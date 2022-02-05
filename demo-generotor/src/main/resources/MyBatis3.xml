@@ -1,0 +1,20 @@
+<!DOCTYPE generatorConfiguration PUBLIC
+        "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    <context id="simple1111" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+        <jdbcConnection driverClass="org.hsqldb.jdbcDriver"
+                        connectionURL="jdbc:hsqldb:mem:aname"/>
+
+        <javaModelGenerator targetPackage="com.example.demo.MyBatis3" targetProject="src/main/java"/>
+
+        <sqlMapGenerator targetPackage="com.example.demo.MyBatis3" targetProject="src">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.example.demo.MyBatis3" targetProject="src/main/java"/>
+
+
+        <table tableName="PKFields"/>
+    </context>
+</generatorConfiguration>

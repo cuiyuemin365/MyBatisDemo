@@ -36,18 +36,16 @@ public class UserModel02 implements Externalizable {
         this.description = description;
     }
 
-    @Override
-    public void writeExternal(ObjectOutput out) throws IOException {
+    @Override public void writeExternal(ObjectOutput out) throws IOException {
         System.out.println("writeExternal doing ...");
         out.write(id); // DataOutput中的方法
         out.writeObject(name + "(from writeExternal)");
     }
 
-    @Override
-    public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
+    @Override public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
         System.out.println("readExternal doing ...");
         id = in.read();
-        name = (String) in.readObject();
+        name = (String)in.readObject();
         System.out.println("name in file is：" + name);
         name = name + "(from readExternal)";
     }

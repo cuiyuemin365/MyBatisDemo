@@ -6,7 +6,7 @@ public class User {
     private Bag bag = new Bag();
 
     // 成员内部类
-    public class Shoes{
+    public class Shoes {
         private Boolean size;
 
         public Boolean getSize() {

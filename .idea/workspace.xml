@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de25e262-2645-4b9e-8f06-6cbaaa349b2b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/task.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/task.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/user.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/java/com/example/demo/MydemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/main/java/com/example/demo/MydemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/java/com/example/demo/domain/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/main/java/com/example/demo/domain/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/java/com/example/demo/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/main/java/com/example/demo/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/java/com/example/demo/service/impl/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/main/java/com/example/demo/service/impl/TaskServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/java/com/example/demo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/main/java/com/example/demo/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/resources/mapper/TaskMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/main/resources/mapper/TaskMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/test/java/com/example/demo/mapper/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/test/java/com/example/demo/mapper/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例1/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例1/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例1/src/test/java/com/github/yeecode/mybatisdemo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例1/src/test/java/com/github/yeecode/mybatisdemo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例10/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例10/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例10/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例10/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例11/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例11/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例11/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例11/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例11/src/main/java/com/github/yeecode/mybatisdemo/model/Boy.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例11/src/main/java/com/github/yeecode/mybatisdemo/model/Boy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例11/src/main/java/com/github/yeecode/mybatisdemo/model/Girl.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例11/src/main/java/com/github/yeecode/mybatisdemo/model/Girl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例11/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例11/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例11/src/main/resources/com/github/yeecode/mybatisdemo/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例11/src/main/resources/com/github/yeecode/mybatisdemo/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例11/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例11/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例11/src/test/java/com/github/yeecode/mybatisdemo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例11/src/test/java/com/github/yeecode/mybatisdemo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例12/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例12/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例12/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例12/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例12/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例12/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例13/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例13/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例13/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例13/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例13/src/main/java/com/github/yeecode/mybatisdemo/model/Boy.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例13/src/main/java/com/github/yeecode/mybatisdemo/model/Boy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例13/src/main/java/com/github/yeecode/mybatisdemo/model/Girl.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例13/src/main/java/com/github/yeecode/mybatisdemo/model/Girl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例13/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例13/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例13/src/main/resources/com/github/yeecode/mybatisdemo/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例13/src/main/resources/com/github/yeecode/mybatisdemo/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例13/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例13/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例13/src/test/java/com/github/yeecode/mybatisdemo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例13/src/test/java/com/github/yeecode/mybatisdemo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例14/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例14/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例14/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例14/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例14/src/main/java/com/github/yeecode/mybatisdemo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例14/src/main/java/com/github/yeecode/mybatisdemo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例14/src/main/java/com/github/yeecode/mybatisdemo/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例14/src/main/java/com/github/yeecode/mybatisdemo/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例14/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例14/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例14/src/main/java/com/github/yeecode/mybatisdemo/provider/UserProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例14/src/main/java/com/github/yeecode/mybatisdemo/provider/UserProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例14/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/示例14/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例14/src/test/java/com/github/yeecode/mybatisdemo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例14/src/test/java/com/github/yeecode/mybatisdemo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例15/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例15/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例15/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例15/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例15/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例15/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例16/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例16/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例16/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例16/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例16/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例16/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例16/src/main/resources/demoScript.sql" beforeDir="false" afterPath="$PROJECT_DIR$/示例16/src/main/resources/demoScript.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例16/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例16/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例17/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例17/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例17/src/main/java/com/github/yeecode/mybatisdemo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例17/src/main/java/com/github/yeecode/mybatisdemo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例18/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例18/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例18/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例18/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例18/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例18/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例18/src/main/resources/com/github/yeecode/mybatisdemo/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例18/src/main/resources/com/github/yeecode/mybatisdemo/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例18/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例18/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例19/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例19/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例19/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例19/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例19/src/main/java/com/github/yeecode/mybatisdemo/model/ProxyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例19/src/main/java/com/github/yeecode/mybatisdemo/model/ProxyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例2/src/main/java/com/github/yeecode/mybatisdemo/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例2/src/main/java/com/github/yeecode/mybatisdemo/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例2/src/main/java/com/github/yeecode/mybatisdemo/MybatisdemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例2/src/main/java/com/github/yeecode/mybatisdemo/MybatisdemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例2/src/main/java/com/github/yeecode/mybatisdemo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例2/src/main/java/com/github/yeecode/mybatisdemo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例2/src/main/java/com/github/yeecode/mybatisdemo/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例2/src/main/java/com/github/yeecode/mybatisdemo/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/示例2/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例2/src/main/resources/com/github/yeecode/mybatisdemo/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例2/src/main/resources/com/github/yeecode/mybatisdemo/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例2/src/test/java/com/github/yeecode/mybatisdemo/MybatisdemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例2/src/test/java/com/github/yeecode/mybatisdemo/MybatisdemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例20/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例20/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例20/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例20/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例21/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例21/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例21/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例21/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例21/src/main/java/com/github/yeecode/mybatisdemo/model/UserModel01.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例21/src/main/java/com/github/yeecode/mybatisdemo/model/UserModel01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例21/src/main/java/com/github/yeecode/mybatisdemo/model/UserModel02.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例21/src/main/java/com/github/yeecode/mybatisdemo/model/UserModel02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例21/src/main/java/com/github/yeecode/mybatisdemo/model/UserModel04.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例21/src/main/java/com/github/yeecode/mybatisdemo/model/UserModel04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例21/src/main/java/com/github/yeecode/mybatisdemo/model/UserModel05.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例21/src/main/java/com/github/yeecode/mybatisdemo/model/UserModel05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例22/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例22/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例22/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例22/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例23/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例23/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例23/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例23/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例23/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例23/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例23/src/main/resources/com/github/yeecode/mybatisdemo/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例23/src/main/resources/com/github/yeecode/mybatisdemo/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例23/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例23/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例24/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例24/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例24/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例24/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例24/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例24/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例24/src/main/resources/com/github/yeecode/mybatisdemo/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例24/src/main/resources/com/github/yeecode/mybatisdemo/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例24/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例24/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例25/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例25/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例25/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例25/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例25/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例25/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例25/src/main/resources/com/github/yeecode/mybatisdemo/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例25/src/main/resources/com/github/yeecode/mybatisdemo/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例25/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例25/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例25/src/test/java/com/github/yeecode/mybatisdemo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例25/src/test/java/com/github/yeecode/mybatisdemo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例26/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例26/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例26/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例26/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例26/src/main/java/com/github/yeecode/mybatisdemo/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例26/src/main/java/com/github/yeecode/mybatisdemo/model/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例26/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例26/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例26/src/main/resources/com/github/yeecode/mybatisdemo/Dao01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例26/src/main/resources/com/github/yeecode/mybatisdemo/Dao01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例26/src/main/resources/com/github/yeecode/mybatisdemo/Dao02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例26/src/main/resources/com/github/yeecode/mybatisdemo/Dao02.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例26/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例26/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例26/src/test/java/com/github/yeecode/mybatisdemo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例26/src/test/java/com/github/yeecode/mybatisdemo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例27/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例27/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例27/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例27/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例27/src/main/java/com/github/yeecode/mybatisdemo/model/Performer.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例27/src/main/java/com/github/yeecode/mybatisdemo/model/Performer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例27/src/main/java/com/github/yeecode/mybatisdemo/processor/ContactOfficer.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例27/src/main/java/com/github/yeecode/mybatisdemo/processor/ContactOfficer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例27/src/main/java/com/github/yeecode/mybatisdemo/processor/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例27/src/main/java/com/github/yeecode/mybatisdemo/processor/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例27/src/main/java/com/github/yeecode/mybatisdemo/processor/MailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例27/src/main/java/com/github/yeecode/mybatisdemo/processor/MailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例27/src/main/java/com/github/yeecode/mybatisdemo/processor/MaterialManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例27/src/main/java/com/github/yeecode/mybatisdemo/processor/MaterialManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例28/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例28/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例28/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例28/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例28/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例28/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例28/src/main/java/com/github/yeecode/mybatisdemo/plugin/YeecodeInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例28/src/main/java/com/github/yeecode/mybatisdemo/plugin/YeecodeInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例28/src/main/resources/com/github/yeecode/mybatisdemo/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例28/src/main/resources/com/github/yeecode/mybatisdemo/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例28/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例28/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例29/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例29/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例29/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例29/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例3/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例3/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例3/src/main/java/com/github/yeecode/mybatisdemo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例3/src/main/java/com/github/yeecode/mybatisdemo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例3/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例3/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例4/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例4/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例4/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例4/src/main/java/com/github/yeecode/mybatisdemo/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例4/src/main/java/com/github/yeecode/mybatisdemo/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例4/src/main/java/com/github/yeecode/mybatisdemo/PhoneMessageDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例4/src/main/java/com/github/yeecode/mybatisdemo/PhoneMessageDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例4/src/main/java/com/github/yeecode/mybatisdemo/PhoneRecordDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例4/src/main/java/com/github/yeecode/mybatisdemo/PhoneRecordDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例4/src/main/java/com/github/yeecode/mybatisdemo/TelePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例4/src/main/java/com/github/yeecode/mybatisdemo/TelePhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例5/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例5/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例5/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例5/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例6/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例6/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例6/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例6/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例6/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例6/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例7/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例7/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例7/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例7/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例7/src/main/java/com/github/yeecode/mybatisdemo/model/Cleaning.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例7/src/main/java/com/github/yeecode/mybatisdemo/model/Cleaning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例7/src/main/java/com/github/yeecode/mybatisdemo/model/WipeBlackboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例7/src/main/java/com/github/yeecode/mybatisdemo/model/WipeBlackboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例7/src/main/java/com/github/yeecode/mybatisdemo/model/WipeGlass.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例7/src/main/java/com/github/yeecode/mybatisdemo/model/WipeGlass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例7/src/test/java/com/github/yeecode/mybatisdemo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例7/src/test/java/com/github/yeecode/mybatisdemo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例8/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例8/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例8/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例8/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例8/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例8/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例8/src/main/java/com/github/yeecode/mybatisdemo/model/UserProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例8/src/main/java/com/github/yeecode/mybatisdemo/model/UserProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例8/src/test/java/com/github/yeecode/mybatisdemo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例8/src/test/java/com/github/yeecode/mybatisdemo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例9/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/示例9/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例9/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例9/src/main/java/com/github/yeecode/mybatisdemo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例9/src/main/java/com/github/yeecode/mybatisdemo/model/ProxyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例9/src/main/java/com/github/yeecode/mybatisdemo/model/ProxyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例9/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例9/src/main/java/com/github/yeecode/mybatisdemo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/示例9/src/test/java/com/github/yeecode/mybatisdemo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/示例9/src/test/java/com/github/yeecode/mybatisdemo/DemoApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="dbtest: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="24M3i8t0aLeG9FB382DmuQ4txXC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql&#10;h2" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo-generotor/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.demo.mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demo.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo-generotor/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserServiceTest.saveBatch">
+    <configuration name="UserMapperTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mydemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.insertSelective" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mydemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="insertSelective" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.selectByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mydemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="selectByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.selectByNameLike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mydemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="selectByNameLike" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.saveBatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mydemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="saveBatch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-generoe" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.yeecode.mybatisdemo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisdemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatisdemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.yeecode.mybatisdemo.MybatisdemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MydemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mydemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.MydemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceTest.saveBatch" />
+        <item itemvalue="JUnit.UserMapperTest.selectByNameLike" />
+        <item itemvalue="JUnit.UserMapperTest.insertSelective" />
+        <item itemvalue="JUnit.UserMapperTest.selectByName" />
+        <item itemvalue="JUnit.UserMapperTest.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="MySQL - @localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES,SHOW_INTERFACES,SHOW_NON_PUBLIC" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de25e262-2645-4b9e-8f06-6cbaaa349b2b" name="Default Changelist" comment="" />
+      <created>1643426752253</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643426752253</updated>
+      <workItem from="1643426753983" duration="15086000" />
+      <workItem from="1643755608018" duration="1038000" />
+      <workItem from="1643756883122" duration="2008000" />
+      <workItem from="1643759482974" duration="61000" />
+      <workItem from="1643759568587" duration="1448000" />
+      <workItem from="1643761519829" duration="11375000" />
+      <workItem from="1643812104822" duration="1328000" />
+      <workItem from="1643863208549" duration="599000" />
+      <workItem from="1643885586587" duration="144000" />
+      <workItem from="1644074603113" duration="3789000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="419" y="168" key="#Project_Structure" timestamp="1643725205379">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="1999" y="127" key="#Project_Structure/0.0.1440.900/1440.-74.1920.1080@1440.-74.1920.1080" timestamp="1643426770934" />
+    <state x="419" y="168" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1643725205379" />
+    <state x="319" y="111" key="#SQL_Dialects" timestamp="1643756647192">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="319" y="111" key="#SQL_Dialects/0.0.1440.900@0.0.1440.900" timestamp="1643756647192" />
+    <state x="319" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1643758395877">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="319" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1643758395877" />
+    <state x="149" y="239" width="475" height="284" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1643809210681">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="149" y="239" width="475" height="284" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.25.1440.875@0.25.1440.875" timestamp="1643809210681" />
+    <state width="1918" height="480" key="GridCell.Tab.0.bottom" timestamp="1644078379337">
+      <screen x="1440" y="-74" width="1920" height="1080" />
+    </state>
+    <state width="1918" height="480" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-74.1920.1080@1440.-74.1920.1080" timestamp="1644078379337" />
+    <state width="1918" height="320" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1643726964129" />
+    <state width="1438" height="765" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1643863094401" />
+    <state width="1918" height="480" key="GridCell.Tab.0.center" timestamp="1644078379335">
+      <screen x="1440" y="-74" width="1920" height="1080" />
+    </state>
+    <state width="1918" height="480" key="GridCell.Tab.0.center/0.0.1440.900/1440.-74.1920.1080@1440.-74.1920.1080" timestamp="1644078379335" />
+    <state width="1918" height="320" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1643726964128" />
+    <state width="1438" height="765" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1643863094400" />
+    <state width="1918" height="480" key="GridCell.Tab.0.left" timestamp="1644078379334">
+      <screen x="1440" y="-74" width="1920" height="1080" />
+    </state>
+    <state width="1918" height="480" key="GridCell.Tab.0.left/0.0.1440.900/1440.-74.1920.1080@1440.-74.1920.1080" timestamp="1644078379334" />
+    <state width="1918" height="320" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1643726964127" />
+    <state width="1438" height="765" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1643863094400" />
+    <state width="1918" height="480" key="GridCell.Tab.0.right" timestamp="1644078379336">
+      <screen x="1440" y="-74" width="1920" height="1080" />
+    </state>
+    <state width="1918" height="480" key="GridCell.Tab.0.right/0.0.1440.900/1440.-74.1920.1080@1440.-74.1920.1080" timestamp="1644078379336" />
+    <state width="1918" height="320" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1643726964129" />
+    <state width="1438" height="765" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1643863094400" />
+    <state width="1438" height="413" key="GridCell.Tab.1.bottom" timestamp="1643812034534">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1918" height="320" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.-74.1920.1080@1440.-74.1920.1080" timestamp="1643542237369" />
+    <state width="1918" height="320" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1643726964132" />
+    <state width="1438" height="413" key="GridCell.Tab.1.bottom/0.25.1440.875@0.25.1440.875" timestamp="1643812034534" />
+    <state width="1438" height="413" key="GridCell.Tab.1.center" timestamp="1643812034533">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1918" height="320" key="GridCell.Tab.1.center/0.0.1440.900/1440.-74.1920.1080@1440.-74.1920.1080" timestamp="1643542237368" />
+    <state width="1918" height="320" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1643726964131" />
+    <state width="1438" height="413" key="GridCell.Tab.1.center/0.25.1440.875@0.25.1440.875" timestamp="1643812034533" />
+    <state width="1438" height="413" key="GridCell.Tab.1.left" timestamp="1643812034533">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1918" height="320" key="GridCell.Tab.1.left/0.0.1440.900/1440.-74.1920.1080@1440.-74.1920.1080" timestamp="1643542237367" />
+    <state width="1918" height="320" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1643726964130" />
+    <state width="1438" height="413" key="GridCell.Tab.1.left/0.25.1440.875@0.25.1440.875" timestamp="1643812034533" />
+    <state width="1438" height="413" key="GridCell.Tab.1.right" timestamp="1643812034533">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1918" height="320" key="GridCell.Tab.1.right/0.0.1440.900/1440.-74.1920.1080@1440.-74.1920.1080" timestamp="1643542237368" />
+    <state width="1918" height="320" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1643726964131" />
+    <state width="1438" height="413" key="GridCell.Tab.1.right/0.25.1440.875@0.25.1440.875" timestamp="1643812034533" />
+    <state width="1918" height="394" key="GridCell.Tab.2.bottom" timestamp="1643451854654">
+      <screen x="1440" y="-74" width="1920" height="1080" />
+    </state>
+    <state width="1918" height="394" key="GridCell.Tab.2.bottom/0.0.1440.900/1440.-74.1920.1080@1440.-74.1920.1080" timestamp="1643451854654" />
+    <state width="1918" height="394" key="GridCell.Tab.2.center" timestamp="1643451854652">
+      <screen x="1440" y="-74" width="1920" height="1080" />
+    </state>
+    <state width="1918" height="394" key="GridCell.Tab.2.center/0.0.1440.900/1440.-74.1920.1080@1440.-74.1920.1080" timestamp="1643451854652" />
+    <state width="1918" height="394" key="GridCell.Tab.2.left" timestamp="1643451854652">
+      <screen x="1440" y="-74" width="1920" height="1080" />
+    </state>
+    <state width="1918" height="394" key="GridCell.Tab.2.left/0.0.1440.900/1440.-74.1920.1080@1440.-74.1920.1080" timestamp="1643451854652" />
+    <state width="1918" height="394" key="GridCell.Tab.2.right" timestamp="1643451854653">
+      <screen x="1440" y="-74" width="1920" height="1080" />
+    </state>
+    <state width="1918" height="394" key="GridCell.Tab.2.right/0.0.1440.900/1440.-74.1920.1080@1440.-74.1920.1080" timestamp="1643451854653" />
+    <state x="0" y="45" key="SettingsEditor" timestamp="1643811484869">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="1900" y="102" key="SettingsEditor/0.0.1440.900/1440.-74.1920.1080@1440.-74.1920.1080" timestamp="1643542059997" />
+    <state x="345" y="147" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1643759452051" />
+    <state x="0" y="45" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1643811484869" />
+    <state x="448" y="149" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1643761759136">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="448" y="149" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.25.1440.875@0.25.1440.875" timestamp="1643761759136" />
+    <state x="575" y="216" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1643756596185">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="575" y="216" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1440.900@0.0.1440.900" timestamp="1643756596185" />
+    <state x="461" y="167" width="692" height="592" key="find.popup" timestamp="1643794010388">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="2054" y="101" width="692" height="729" key="find.popup/0.0.1440.900/1440.-74.1920.1080@1440.-74.1920.1080" timestamp="1643541827932" />
+    <state x="461" y="146" width="692" height="608" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1643758436505" />
+    <state x="461" y="167" width="692" height="592" key="find.popup/0.25.1440.875@0.25.1440.875" timestamp="1643794010388" />
+    <state x="1508" y="8" width="945" height="600" key="new project wizard" timestamp="1644074973857">
+      <screen x="1440" y="-74" width="1920" height="1080" />
+    </state>
+    <state x="1508" y="8" width="945" height="600" key="new project wizard/0.0.1440.900/1440.-74.1920.1080@1440.-74.1920.1080" timestamp="1644074973857" />
+    <state x="51" y="68" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1643755923835" />
+    <state x="467" y="219" width="672" height="550" key="search.everywhere.popup" timestamp="1643809812097">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="2063" y="165" width="672" height="678" key="search.everywhere.popup/0.0.1440.900/1440.-74.1920.1080@1440.-74.1920.1080" timestamp="1643439259351" />
+    <state x="467" y="219" width="672" height="550" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1643809812097" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.9/mybatis-3.5.9-sources.jar!/org/apache/ibatis/executor/BaseExecutor.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.9/mybatis-3.5.9-sources.jar!/org/apache/ibatis/scripting/xmltags/DynamicSqlSource.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2-sources.jar!/org/apache/ibatis/mapping/MappedStatement.java</url>
+          <line>296</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.9/mybatis-3.5.9-sources.jar!/org/apache/ibatis/mapping/MappedStatement.java</url>
+          <line>304</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.9/mybatis-3.5.9-sources.jar!/org/apache/ibatis/scripting/xmltags/DynamicSqlSource.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="boundSql" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

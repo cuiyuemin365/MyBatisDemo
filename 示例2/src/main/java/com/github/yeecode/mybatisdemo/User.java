@@ -8,7 +8,6 @@ public class User {
     private Integer sex;
     private String schoolName;
 
-
     public Integer getId() {
         return id;
     }

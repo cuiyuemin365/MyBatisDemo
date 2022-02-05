@@ -10,8 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.io.IOException;
 import java.io.InputStream;
 
-@SpringBootApplication
-public class DemoApplication {
+@SpringBootApplication public class DemoApplication {
     public static void main(String[] args) {
         String resource = "mybatis-config.xml";
         InputStream inputStream = null;
@@ -23,10 +22,10 @@ public class DemoApplication {
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
 
         try (SqlSession session = sqlSessionFactory.openSession()) {
-            User user01 = new User("张大壮","dazhuang@sample.mail",18, 0, "XIERQI SCHOOL");
-            User user02 = new User("王小壮","xiaozhuang@sample.mail",17, 0, "GAOKE SCHOOL");
-            User user03 = new User("王二壮", "wangerzhuang@sample.mail",15,0, "GAOKE SCHOOL");
-            User user04 = new User("李二壮", "lierzhuang@sample.com",21,0, "KEYUAN SCHOOL");
+            User user01 = new User("张大壮", "dazhuang@sample.mail", 18, 0, "XIERQI SCHOOL");
+            User user02 = new User("王小壮", "xiaozhuang@sample.mail", 17, 0, "GAOKE SCHOOL");
+            User user03 = new User("王二壮", "wangerzhuang@sample.mail", 15, 0, "GAOKE SCHOOL");
+            User user04 = new User("李二壮", "lierzhuang@sample.com", 21, 0, "KEYUAN SCHOOL");
 
             int result;
 

@@ -16,8 +16,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.List;
 
-@SpringBootApplication
-public class DemoApplication {
+@SpringBootApplication public class DemoApplication {
     public static void main(String[] args) {
         String resource = "mybatis-config.xml";
         InputStream inputStream = null;
@@ -28,13 +27,13 @@ public class DemoApplication {
         }
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         // 嵌套查询操作
-//        nestedQuery(sqlSessionFactory);
+        //        nestedQuery(sqlSessionFactory);
 
         // 惰性查询操作
         lazyLoadQuery(sqlSessionFactory);
 
         // 包含序列化与反序列化的惰性查询操作
-//        lazyLoadQueryAndSerialize(sqlSessionFactory);
+        //        lazyLoadQueryAndSerialize(sqlSessionFactory);
 
     }
 
@@ -43,7 +42,8 @@ public class DemoApplication {
             User userParam = new User();
             userParam.setSex(0);
             // 查询满足条件的全部用户
-            List<User> userList = session.selectList("com.github.yeecode.mybatisdemo.dao.UserDao.nestedQuery", userParam);
+            List<User> userList =
+                session.selectList("com.github.yeecode.mybatisdemo.dao.UserDao.nestedQuery", userParam);
             // 打印全部用户姓名列表
             System.out.println("users: ");
             for (User user : userList) {
@@ -65,7 +65,8 @@ public class DemoApplication {
             User userParam = new User();
             userParam.setSex(0);
             // 查询满足条件的全部用户
-            List<User> userList = session.selectList("com.github.yeecode.mybatisdemo.dao.UserDao.lazyLoadQuery", userParam);
+            List<User> userList =
+                session.selectList("com.github.yeecode.mybatisdemo.dao.UserDao.lazyLoadQuery", userParam);
             // 打印全部用户姓名列表
             System.out.println("users: ");
             for (User user : userList) {
@@ -89,7 +90,8 @@ public class DemoApplication {
             User userParam = new User();
             userParam.setSex(0);
             // 查询满足条件的全部用户
-            List<User> userList = session.selectList("com.github.yeecode.mybatisdemo.dao.UserDao.lazyLoadQuery", userParam);
+            List<User> userList =
+                session.selectList("com.github.yeecode.mybatisdemo.dao.UserDao.lazyLoadQuery", userParam);
 
             System.out.println("users: ");
             for (User user : userList) {
@@ -104,7 +106,7 @@ public class DemoApplication {
             oos.close();
 
             ObjectInputStream ois = new ObjectInputStream(new FileInputStream("user.tempdata"));
-            User newUser = (User) ois.readObject();
+            User newUser = (User)ois.readObject();
             System.out.println("newUser:" + newUser.getName());
 
             // 根据条件打印用户任务信息

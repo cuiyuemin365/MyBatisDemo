@@ -3,7 +3,7 @@ package com.github.yeecode.mybatisdemo.model;
 import java.io.Serializable;
 
 public class UserModel01 implements Serializable {
-    private static final long serialVerisionUID = 123L ;
+    private static final long serialVerisionUID = 123L;
 
     private Integer id;
     private String name;

@@ -69,13 +69,8 @@ public class User implements Serializable {
         this.books = books;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", sex=" + sex +
-                ", schoolName='" + schoolName + '\'' +
-                '}';
+    @Override public String toString() {
+        return "User{" + "id=" + id + ", name='" + name + '\'' + ", sex=" + sex + ", schoolName='" + schoolName + '\''
+            + '}';
     }
 }

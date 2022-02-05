@@ -16,18 +16,18 @@
 <mapper namespace="com.github.yeecode.mybatisdemo.dao.Dao01">
 
     <resultMap id="userMap" type="User" autoMapping="true">
-        <collection property="taskList" resultSet="taskRecord" resultMap="taskMap" />
+        <collection property="taskList" resultSet="taskRecord" resultMap="taskMap"/>
     </resultMap>
 
     <resultMap id="taskMap" type="Task">
-        <result property="id" column="id" />
-        <result property="userId" column="userId" />
-        <result property="taskName" column="taskName" />
+        <result property="id" column="id"/>
+        <result property="userId" column="userId"/>
+        <result property="taskName" column="taskName"/>
     </resultMap>
 
     <!--返回两个结果组成的结果集-->
     <select id="query" resultMap="userMap,taskMap" resultSets="userRecord,taskRecord" statementType="CALLABLE">
-      CALL multiResults()
+        CALL multiResults()
     </select>
 
 </mapper>

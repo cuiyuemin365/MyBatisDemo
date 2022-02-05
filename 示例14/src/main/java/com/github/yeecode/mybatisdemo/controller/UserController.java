@@ -8,19 +8,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@RestController
-@RequestMapping("/user")
-public class UserController {
-    @Autowired
-    private UserDao userDao;
+@RestController @RequestMapping("/user") public class UserController {
+    @Autowired private UserDao userDao;
 
-    @RequestMapping("/test")
-    public String index() {
+    @RequestMapping("/test") public String index() {
 
         User user = userDao.queryUserById(1);
         System.out.println("queryUserById(1):" + user.getName());
 
-        List<User> userList = userDao.queryUsersByIds(new int[]{1,3});
+        List<User> userList = userDao.queryUsersByIds(new int[] {1, 3});
         System.out.print("queryUsersByIds(new Integer[]{1,3}):");
         for (User item : userList) {
             System.out.print(item.getName() + "; ");

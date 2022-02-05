@@ -7,13 +7,11 @@ public class PhoneMessageDecorator implements Phone {
         this.decoratedPhone = decoratedPhone;
     }
 
-    @Override
-    public String callIn() {
+    @Override public String callIn() {
         return decoratedPhone.callIn();
     }
 
-    @Override
-    public Boolean callOut(String info) {
+    @Override public Boolean callOut(String info) {
         return decoratedPhone.callOut(info);
     }
 

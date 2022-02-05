@@ -59,11 +59,8 @@ public class User {
     }
 
     public String toString() {
-        return "User{name=".concat(name)
-                .concat(", email =").concat(email)
-                .concat(", age =").concat(age.toString())
-                .concat(", sex =").concat(sex.toString())
-                .concat(", schoolName =").concat(schoolName)
-                .concat("}").concat("\n") ;
+        return "User{name=".concat(name).concat(", email =").concat(email).concat(", age =").concat(age.toString())
+            .concat(", sex =").concat(sex.toString()).concat(", schoolName =").concat(schoolName).concat("}")
+            .concat("\n");
     }
 }

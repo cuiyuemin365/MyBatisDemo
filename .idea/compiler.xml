@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo-generoe" />
+        <module name="demo-generotor" />
+        <module name="mydemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="demo (1)" target="1.8" />
+      <module name="demo (2)" target="1.8" />
+      <module name="demo (3)" target="1.8" />
+      <module name="demo (4)" target="1.8" />
+      <module name="demo-generoe" target="1.8" />
+      <module name="demo-generotor" target="1.8" />
+      <module name="demo03" target="1.8" />
+      <module name="mybatisdemo" target="1.8" />
+      <module name="mydemo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="demo (1)" options="-parameters" />
+      <module name="demo (2)" options="-parameters" />
+      <module name="demo (3)" options="-parameters" />
+      <module name="demo (4)" options="-parameters" />
+      <module name="demo-generoe" options="-parameters" />
+      <module name="demo-generotor" options="-parameters" />
+      <module name="demo03" options="-parameters" />
+      <module name="mybatisdemo" options="-parameters" />
+      <module name="mydemo" options="-parameters" />
+    </option>
+  </component>
+</project>

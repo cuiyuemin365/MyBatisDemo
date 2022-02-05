@@ -4,8 +4,7 @@ import com.github.yeecode.mybatisdemo.model.UserProxy;
 import com.github.yeecode.mybatisdemo.model.User;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class DemoApplication {
+@SpringBootApplication public class DemoApplication {
     public static void main(String[] args) throws Exception {
         // 生成被代理对象
         User user = new User();

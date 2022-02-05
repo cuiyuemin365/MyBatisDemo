@@ -68,12 +68,11 @@ public class User implements Serializable {
         this.taskList = taskList;
     }
 
-    @Override
-    public String toString() {
+    @Override public String toString() {
         String ans = "user : " + id + "  :  " + name + "\n";
         if (taskList != null) {
             ans += "Tasks: \n";
-            for (Task task: taskList) {
+            for (Task task : taskList) {
                 ans += task.getTaskName() + "\n";
             }
         }

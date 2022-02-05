@@ -1,0 +1,9 @@
+com/example/demo/domain/Task.class
+com/example/demo/mapper/TaskMapper.class
+com/example/demo/MydemoApplication.class
+com/example/demo/service/TaskService.class
+com/example/demo/mapper/UserMapper.class
+com/example/demo/service/UserService.class
+com/example/demo/domain/User.class
+com/example/demo/service/impl/UserServiceImpl.class
+com/example/demo/service/impl/TaskServiceImpl.class

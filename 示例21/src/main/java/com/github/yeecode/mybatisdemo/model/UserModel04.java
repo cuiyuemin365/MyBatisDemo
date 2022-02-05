@@ -4,7 +4,7 @@ import java.io.ObjectStreamException;
 import java.io.Serializable;
 
 public class UserModel04 implements Serializable {
-    private static final long serialVerisionUID = 123L ;
+    private static final long serialVerisionUID = 123L;
 
     private Integer id;
     private String name;

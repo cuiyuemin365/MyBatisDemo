@@ -7,8 +7,7 @@ public class UserProxy implements UserInterface {
         this.target = target;
     }
 
-    @Override
-    public String sayHello(String name) {
+    @Override public String sayHello(String name) {
         System.out.println("pre words");
         target.sayHello(name);
         System.out.println("post words");

@@ -23,7 +23,7 @@
     <insert id="addUser_C" parameterType="User">
         <selectKey resultType="java.lang.Integer" keyProperty="id" order="BEFORE">
             SELECT CEILING(RAND()*900+100)
---             SELECT LAST_INSERT_ID()
+            -- SELECT LAST_INSERT_ID()
         </selectKey>
         INSERT INTO `user`
         (`name`,`email`,`age`,`sex`,`schoolName`)

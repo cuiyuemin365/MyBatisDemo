@@ -8,8 +8,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-@SpringBootApplication
-public class DemoApplication {
+@SpringBootApplication public class DemoApplication {
     public static void main(String[] args) {
         try {
             User user01 = new User(1, "易哥", 18);
@@ -37,11 +36,11 @@ public class DemoApplication {
         // getValue(String expression, Object root) ：对root内容执行expression中的操作，并返回结果
 
         // 读取根对象的属性值
-        Integer age = (Integer) Ognl.getValue("age", userMap.get("user1"));
+        Integer age = (Integer)Ognl.getValue("age", userMap.get("user1"));
         System.out.println("读取根对象属性，得到age：" + age);
         // 设置根对象的属性值
         Ognl.getValue("age = 19", userMap.get("user1"));
-        age = (Integer) Ognl.getValue("age", userMap.get("user1"));
+        age = (Integer)Ognl.getValue("age", userMap.get("user1"));
         System.out.println("设置根对象属性后，得到age：" + age);
 
         // 使用表达式读写环境中信息的示例
@@ -49,20 +48,20 @@ public class DemoApplication {
         // getValue(String expression, Map context, Object root) ：在context环境中对root内容执行expression中的操作，并返回结果
 
         // 读取环境中的信息
-        String userName2 = (String) Ognl.getValue("#user2.name", userMap, new Object());
+        String userName2 = (String)Ognl.getValue("#user2.name", userMap, new Object());
         System.out.println("读取环境中的信息，得到user2的name：" + userName2);
         // 读取环境中的信息，并进行判断
-        Boolean result = (Boolean) Ognl.getValue("#user2.name != '丽丽'", userMap, new Object());
+        Boolean result = (Boolean)Ognl.getValue("#user2.name != '丽丽'", userMap, new Object());
         System.out.println("读取环境中的信息，并进行判断，得到：" + result);
         // 设置环境中的信息
         Ognl.getValue("#user2.name = '小华'", userMap, new Object());
-        String newUserName = (String) Ognl.getValue("#user2.name", userMap, new Object());
+        String newUserName = (String)Ognl.getValue("#user2.name", userMap, new Object());
         System.out.println("设置环境中的信息后，得到user2的name：" + newUserName);
     }
 
     public static void callFunction() throws Exception {
         // 调用对象方法
-        Integer hashCode = (Integer) Ognl.getValue("hashCode()", "yeecode");
+        Integer hashCode = (Integer)Ognl.getValue("hashCode()", "yeecode");
         System.out.println("对字符串对象调用hashCode方法得到：" + hashCode);
         // 调用类方法
         Double result = (Double)Ognl.getValue("@java.lang.Math@random()", null);
@@ -78,12 +77,12 @@ public class DemoApplication {
         Object expressionTree = Ognl.parseExpression("#user2.name");
         // 重复运行多次
         for (int i = 0; i < 10000; i++) {
-            userName = (String) Ognl.getValue(expressionTree, userMap, new Object());
+            userName = (String)Ognl.getValue(expressionTree, userMap, new Object());
         }
         long time2 = new Date().getTime();
         // 直接重复运行多次
         for (int i = 0; i < 10000; i++) {
-            userName = (String) Ognl.getValue("#user2.name", userMap, new Object());
+            userName = (String)Ognl.getValue("#user2.name", userMap, new Object());
         }
         long time3 = new Date().getTime();
 

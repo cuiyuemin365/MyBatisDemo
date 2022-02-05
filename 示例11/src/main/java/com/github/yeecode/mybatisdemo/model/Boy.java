@@ -11,12 +11,8 @@ public class Boy extends User {
         this.age = age;
     }
 
-    @Override
-    public String toString() {
+    @Override public String toString() {
 
-        return super.toString() +"\n"
-                +"Boy{" +
-                "age='" + age + '\'' +
-                '}';
+        return super.toString() + "\n" + "Boy{" + "age='" + age + '\'' + '}';
     }
 }

@@ -9,9 +9,7 @@ import org.springframework.stereotype.Service;
 /**
  *
  */
-@Service
-public class TaskServiceImpl extends ServiceImpl<TaskMapper, Task>
-    implements TaskService{
+@Service public class TaskServiceImpl extends ServiceImpl<TaskMapper, Task> implements TaskService {
 
 }
 

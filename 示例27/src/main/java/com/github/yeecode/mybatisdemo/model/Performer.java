@@ -8,7 +8,6 @@ public class Performer {
     private Integer sex;
     private String schoolName;
 
-
     public Performer(String name, String email, Integer age, Integer sex, String schoolName) {
         this.name = name;
         this.email = email;

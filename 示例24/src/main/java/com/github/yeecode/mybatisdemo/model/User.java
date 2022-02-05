@@ -15,7 +15,6 @@ public class User implements Serializable {
     public User() {
     }
 
-
     public Integer getId() {
         return id;
     }
@@ -74,7 +73,7 @@ public class User implements Serializable {
 
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("User{id=").append(id).append(", name=").append(name).append('}').append("\n") ;
+        stringBuilder.append("User{id=").append(id).append(", name=").append(name).append('}').append("\n");
         stringBuilder.append("taskList: \n");
         for (Task task : taskList) {
             stringBuilder.append(task.getId()).append(" : ").append(task.getTaskName()).append("\n");

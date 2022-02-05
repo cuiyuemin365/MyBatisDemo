@@ -29,8 +29,7 @@ public class Task {
         this.taskName = taskName;
     }
 
-    @Override
-    public String toString() {
+    @Override public String toString() {
         return "task : " + id + "  :  " + taskName;
     }
 }

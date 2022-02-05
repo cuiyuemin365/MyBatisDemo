@@ -4,10 +4,6 @@ import org.apache.ibatis.jdbc.SQL;
 
 public class UserProvider {
     public String queryUsersBySchoolName() {
-        return new SQL()
-                .SELECT("*")
-                .FROM("user")
-                .WHERE("schoolName = #{schoolName}")
-                .toString();
+        return new SQL().SELECT("*").FROM("user").WHERE("schoolName = #{schoolName}").toString();
     }
 }

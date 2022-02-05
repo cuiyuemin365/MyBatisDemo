@@ -2,7 +2,7 @@ package com.github.yeecode.mybatisdemo.model;
 
 public abstract class Cleaning {
 
-    public void clean(){
+    public void clean() {
         prepare();
         implement();
         windup();

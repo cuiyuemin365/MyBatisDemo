@@ -10,8 +10,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
-@SpringBootApplication
-public class DemoApplication {
+@SpringBootApplication public class DemoApplication {
     public static void main(String[] args) {
         // 第一阶段：MyBatis的初始化阶段
         String resource = "mybatis-config.xml";
@@ -23,8 +22,7 @@ public class DemoApplication {
             e.printStackTrace();
         }
         // 得到SqlSessionFactory
-        SqlSessionFactory sqlSessionFactory =
-                new SqlSessionFactoryBuilder().build(inputStream);
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
 
         // 第二阶段：数据读写阶段
         try (SqlSession session = sqlSessionFactory.openSession()) {
@@ -34,7 +32,7 @@ public class DemoApplication {
             User userParam = new User();
             userParam.setSchoolName("Sunny School");
             // 调用接口展开数据库操作
-            List<User> userList =  userMapper.queryUserBySchoolName(userParam);
+            List<User> userList = userMapper.queryUserBySchoolName(userParam);
             // 打印查询结果
             for (User user : userList) {
                 System.out.println("name : " + user.getName() + " ;  email : " + user.getEmail());

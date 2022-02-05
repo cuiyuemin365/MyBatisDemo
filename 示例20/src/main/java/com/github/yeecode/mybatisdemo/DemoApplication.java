@@ -9,8 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.lang.reflect.Method;
 
-@SpringBootApplication
-public class DemoApplication {
+@SpringBootApplication public class DemoApplication {
     public static void main(String[] args) throws Exception {
         ClassPool pool = ClassPool.getDefault();
         // 定义一个类
@@ -22,7 +21,8 @@ public class DemoApplication {
         CtMethod setMethod = CtNewMethod.make("public void setName(String name) { this.name = name;}", userCtClazz);
         userCtClazz.addMethod(setMethod);
         // 创建sayHello方法
-        CtMethod sayHello = CtNewMethod.make("public String sayHello() { return \"Hello, I am \" + this.name ;}", userCtClazz);
+        CtMethod sayHello =
+            CtNewMethod.make("public String sayHello() { return \"Hello, I am \" + this.name ;}", userCtClazz);
         userCtClazz.addMethod(sayHello);
 
         Class<?> userClazz = userCtClazz.toClass();
@@ -30,15 +30,15 @@ public class DemoApplication {
         Object user = userClazz.newInstance();
         // 为对象设置name值
         Method[] methods = userClazz.getMethods();
-        for (Method method: methods){
+        for (Method method : methods) {
             if (method.getName().equals("setName")) {
-                method.invoke(user,"易哥");
+                method.invoke(user, "易哥");
             }
         }
         // 调用对象sayHello方法
-        for (Method method: methods){
+        for (Method method : methods) {
             if (method.getName().equals("sayHello")) {
-                String result = (String) method.invoke(user);
+                String result = (String)method.invoke(user);
                 System.out.println(result);
 
             }

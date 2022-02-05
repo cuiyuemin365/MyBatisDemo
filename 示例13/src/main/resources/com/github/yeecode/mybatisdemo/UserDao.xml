@@ -50,11 +50,15 @@
     </resultMap>
 
     <select id="selectUser_A" resultMap="userMapByConstructor">
-      SELECT * FROM `user` WHERE `id` = #{id}
+        SELECT *
+        FROM `user`
+        WHERE `id` = #{id}
     </select>
 
     <select id="selectUser_B" resultMap="userMap">
-      select * FROM `user` WHERE `id` = #{id}
+        select *
+        FROM `user`
+        WHERE `id` = #{id}
     </select>
 
     <select id="selectUsers" resultMap="userMapFull">
@@ -67,7 +71,8 @@
     </select>
 
     <sql id="bySchool">
-        AND `schoolName` = #{schoolName}
+        AND `schoolName` =
+        #{schoolName}
     </sql>
 
     <select id="selectUserByNameAndSchoolName" parameterMap="userParam01" resultType="User">
@@ -88,10 +93,15 @@
     </select>
 
     <select id="selectByAge" resultMap="userMap" databaseId="mysql">
-    SELECT * FROM `user` WHERE `age` = #{age} TOP 5
-</select>
+        SELECT *
+        FROM `user`
+        WHERE `age` = #{age} TOP 5
+    </select>
 
     <select id="selectByAge" resultMap="userMap" databaseId="sqlserver">
-    SELECT * FROM `user` WHERE `age` = #{age} LIMIT 5
-</select>
+        SELECT *
+        FROM `user`
+        WHERE `age` = #{age}
+        LIMIT 5
+    </select>
 </mapper>

@@ -11,8 +11,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
-@SpringBootApplication
-public class DemoApplication {
+@SpringBootApplication public class DemoApplication {
     public static void main(String[] args) {
         System.out.println("Demo03 is a demo for configuration files, it can't work.");
         String resource = "mybatis-config.xml";
@@ -32,7 +31,8 @@ public class DemoApplication {
             userBean = session.selectOne("com.github.yeecode.mybatisdemo.dao.UserDao.selectUser_B", 2);
             System.out.println(userBean.toString());
 
-            List<User> userList = session.selectList("com.github.yeecode.mybatisdemo.dao.UserDao.selectUsers", new int[]{1, 2});
+            List<User> userList =
+                session.selectList("com.github.yeecode.mybatisdemo.dao.UserDao.selectUsers", new int[] {1, 2});
             for (User user : userList) {
                 System.out.println(user.toString());
             }

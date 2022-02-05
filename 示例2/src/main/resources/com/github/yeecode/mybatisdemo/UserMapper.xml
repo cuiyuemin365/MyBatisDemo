@@ -6,5 +6,5 @@
         <if test="schoolName != null">
             WHERE schoolName = #{schoolName}
         </if>
-     </select>
+    </select>
 </mapper>
