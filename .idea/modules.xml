@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/demo-generotor/demo-generotor.iml" filepath="$PROJECT_DIR$/demo-generotor/demo-generotor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mydemo/mydemo.iml" filepath="$PROJECT_DIR$/mydemo/mydemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MyBatisDemo.iml" filepath="$PROJECT_DIR$/.idea/MyBatisDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itfsw-mybatis-generator-plugin/itfsw-mybatis-generator-plugin.iml" filepath="$PROJECT_DIR$/itfsw-mybatis-generator-plugin/itfsw-mybatis-generator-plugin.iml" />
     </modules>
   </component>
 </project>
